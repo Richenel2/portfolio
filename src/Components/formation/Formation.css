@@ -1,0 +1,15 @@
+@import url(../css.css);
+
+ul.formations{
+    border-left : 5px var(--primary-black) solid
+}
+
+ul.formations .date{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.list-formation{
+    margin: 1rem;
+}

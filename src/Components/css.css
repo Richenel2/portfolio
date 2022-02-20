@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@300 & display=swap');
+
+
+*{
+    font-family: "Roboto Condensed" sans-serif;
+}
+  :root{
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-dark: rgba(255,255,255,0);
+    --primary-red: #f3dc0e;
+    --primary-hover-red: #f3dc0e;
+    --primary-black: #1e1e1e;
+  }

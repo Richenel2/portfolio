@@ -1,0 +1,24 @@
+@import url(../css.css);
+
+p span.brands-name{
+    font-weight: 500;
+    color: var(--primary-orange);
+    font-size: 1.3rem;
+}
+
+p span.option-skill{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+p.descrip ul  {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+p.descrip ul  li:hover {
+    color: var(--primary-orange);
+}

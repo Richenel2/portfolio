@@ -1,0 +1,32 @@
+@import url("./css.css");
+nav a.nav-link{
+    font-size: .8rem;    
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+nav {
+    z-index: 2;
+}
+.navbar-brand{
+  font-weight: 600;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-top: 0.185rem solid var(--primary-dark);
+
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+    border-top: 0.185rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover{
+    border-top: 0.185rem solid var(--primary-orange);
+}

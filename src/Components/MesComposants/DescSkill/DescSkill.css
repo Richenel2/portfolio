@@ -1,0 +1,70 @@
+@import url(../../css.css);
+
+div.desc-skill{
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 1px 30px #1e1e1e44;
+    padding-top: 1rem;
+    transform: scale(1);
+    transition: .5s all ease-in-out;
+    margin: 1rem;
+}
+div.brands-skill {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div.brands-skill div{
+    margin-left: 1rem;
+}
+.skilll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    margin-top: 1rem;
+}
+div.desc-skill div div.skill{
+    background-color: var(--primary-orange);
+    font-weight: 700;
+    font-size: 2.5rem;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 1px 1px 30px #1e1e1e44,
+                1px 1px 30px #1e1e1e22 inset;
+    border : 5px var(--primary-orange) solid;
+    color: white;
+}
+div.desc-skill div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-title{
+    font-weight: 600;
+    color: var(--primary-black);
+    text-transform: uppercase;
+
+}
+
+div.skill-header::after{
+    content: "";
+    width: 5rem;
+    height: 0.1rem;
+    background-color: var(--primary-black);
+    opacity: .5;
+}
+
+div.desc-skill:hover{
+    transform: scale(1.1);
+}
+

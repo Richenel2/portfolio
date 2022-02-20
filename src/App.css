@@ -1,0 +1,45 @@
+@import url(./Components/css.css);
+@media(max-width:768px){
+
+  .main-info h1{
+    font-size: 2rem !important;
+  }
+  .typed-text {
+    font-size: 1.5rem !important;
+  }
+  footer div.context{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .prog{
+    width: 75vw !important;
+  }
+  section{
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+
+  }
+}
+.prog{
+  width: 50vw;
+}
+section{
+  margin: 5rem;
+  text-align: center;
+}
+
+.anime{
+  background-color: "#ffffff";
+  width:50 ;
+  height : 50;
+}
+
+section h1{
+  text-transform: uppercase;
+}
+
+section p{
+  font-size: 1.1rem;
+  padding: 1rem;
+}

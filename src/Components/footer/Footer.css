@@ -1,0 +1,67 @@
+@import url("../css.css");
+
+footer {
+    color: var(--primary-white) !important;
+}
+footer > div.copyright , footer > div.brands-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    margin-bottom: 0rem;
+}
+
+footer div.copyright span{
+    font-weight: 500;
+}
+
+a.icons {
+    font-size: 1.3rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    color: var(--primary-white);
+    transition: 0.3s ease-in;
+}
+
+a.icons:hover{
+    color: var(--primary-orange);
+    animation: balance 0.3s ease-in-out infinite;
+}
+
+@keyframes balance {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+footer div.context{
+    display: flex;
+    justify-content: space-around;
+}
+footer div.context div{
+    width: 20rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+footer div.context div.aboutMe p{
+    font-size: 0.75rem;
+}
+footer div.context div.aboutMe span{
+    display: inline;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fffa;
+}
+
+footer div.context div.aboutMe h4{
+    font-weight: 200;
+    color: #fffa;
+}
